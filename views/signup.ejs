@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <title>Fashion View Sign Up</title>
+        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="/bootstrap.css">
+        <style>
+            * {
+                padding: 0;
+                margin: 0;
+                border: none;
+            }
+
+            body {
+                font-family: Arial, sans-serif;
+                background: url('/images/keagan-henman-xPJYL0l5Ii8-unsplash.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0;
+            }
+        </style>
+</head>
+
+<body>
+    <div class="signup-container">
+        <h2>Sign Up</h2>
+        <form action="/signup" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name..." required autocapitalize="off">
+
+            <label for="name">Roll No:</label>
+            <input type="text" id="rollno" name="rollno" placeholder="Enter Your Name..." required autocapitalize="off">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email..." required autocapitalize="off">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter Your Password..." required autocapitalize="off">
+            <button type="submit">Sign Up</button>
+            <a href="#" class="signup-link" id="#signup-link">Login</a>
+        </form>
+    </div>
+
+</body>
+
+</html>
